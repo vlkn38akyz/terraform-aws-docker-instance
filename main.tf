@@ -51,7 +51,7 @@ resource "aws_instance" "tfmyec2" {
 }
 
 resource "aws_security_group" "tf-sec-gr" {
-  name = "${var.tag}-terraform-sec-grp"
+  name = "${var.tag}-terraform1-sec-grp"
   tags = {
     Name = var.tag
   }
